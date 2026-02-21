@@ -71,6 +71,19 @@ R-Squared Score: 0.67
 3  WW63253    7706.298884  Medium Value
 4  HB64268    2857.926155     Low Value
 
+
+# Feature Importance Plot
+
+<img width="974" height="547" alt="Feature Importance Plot" src="https://github.com/user-attachments/assets/a02b567b-6139-4adf-9508-5ab16286946a" />
+
+# Actual vs Predicted Distribution
+
+<img width="859" height="547" alt="Actual vs Predicted Distribution" src="https://github.com/user-attachments/assets/d494e21d-95f2-4ea8-b533-5c77d896224e" />
+
+# Segment Breakdown
+
+<img width="704" height="470" alt="Segment Breakdown" src="https://github.com/user-attachments/assets/7ad98637-c730-4061-99fc-1619a0a30d55" />
+
 Final Model
 _______________________________________________________________________________________________
 By comparing RMSE and R^2 score results of models and then we choose the best model as the Random Forest with GridSearchCV, having the best evaluation scores.
