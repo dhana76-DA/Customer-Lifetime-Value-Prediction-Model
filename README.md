@@ -18,9 +18,16 @@ Exploratory Data Analysis
 Univariate, Bivariate and Multivariate Analysis were performed to bring out important aspects of data into focus for further analysis. Some of the highlights from EDA are listed below.
 
 Univariate Analysis
+
+
+
+
+<img width="602" height="432" alt="CLV" src="https://github.com/user-attachments/assets/509b90d7-6251-4c60-8a10-85ac8ea2f7b4" />
+
 CLV
 
-CLV is heavily right skewed in the data
+CLV is heavily
+ right skewed in the data
 location
 
 Most of the customers are from the suburban region
@@ -30,6 +37,10 @@ Bivariate Analysis
 CLV and Monthly premium auto have a positive correlation and there is a linear relationship between them.
 Multivariate Analysis
 Heatmap
+
+
+
+<img width="707" height="501" alt="Heatmap" src="https://github.com/user-attachments/assets/f520b66f-c9f4-495d-a580-5a825e5c51fe" />
 
 There is a positive correlation between CLV and the monthly premium auto
 There is a slight positive correlation between the total claim amount and CLV.
