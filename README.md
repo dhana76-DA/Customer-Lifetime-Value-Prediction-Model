@@ -30,33 +30,46 @@ Most of the customers are from the suburban region
 Bivariate Analysis
 <img width="589" height="432" alt="bi" src="https://github.com/user-attachments/assets/348f8631-6991-42b0-8c6b-08bd51b19a93" />
 
-
 CLV and Monthly premium auto have a positive correlation and there is a linear relationship between them.
+
 Multivariate Analysis
-Heatmap
-
-
 
 <img width="707" height="501" alt="Heatmap" src="https://github.com/user-attachments/assets/f520b66f-c9f4-495d-a580-5a825e5c51fe" />
 
-There is a positive correlation between CLV and the monthly premium auto
-There is a slight positive correlation between the total claim amount and CLV.
-Income has a lesser positive correlation with CLV
+> There is a positive correlation between CLV and the monthly premium auto
+> There is a slight positive correlation between the total claim amount and CLV.
+> Income has a lesser positive correlation with CLV
+
 Evaluation Metric
 RMSE and R^2 score were chosen as the metric for the models.
 
 Supervised Models Used
 
-Model   	R^2Score	RMSE
-LinearRegression	0.25	0.5772
-Ridge Regression		0.21	0.5925
-Lasso Regression		0.19	0.5992
-DecisionTree Regression		0.84	0.2668
-RandomForest Regression	0.90	0.2047
-Adaboost Regression	0.89	0.2181
-RandomForest with GridSearchCV	0.91	0.1956
+Model   	                              R^2Score	    RMSE
+LinearRegression	                      0.25        	0.5772
+Ridge Regression	                      0.21	        0.5925
+Lasso Regression		                    0.19	        0.5992
+DecisionTree Regression		              0.84	        0.2668
+RandomForest Regression	                0.90	        0.2047
+Adaboost Regression	                    0.89	        0.2181
+RandomForest with GridSearchCV	        0.91	        0.1956
 
+Results of the project:
+____________________________________________________
+RandomForestRegressor(max_depth=10, random_state=42)
 
+--- Model Performance ---
+Mean Absolute Error (MAE): $1570.39
+Root Mean Squared Error (RMSE): $4100.40
+R-Squared Score: 0.67
+
+--- Customer Segments Sample ---
+  Customer  Predicted_LTV   LTV_Segment
+0  BU79786    2716.695865     Low Value
+1  QZ44356    6673.888128  Medium Value
+2  AI49188   16926.786935    High Value
+3  WW63253    7706.298884  Medium Value
+4  HB64268    2857.926155     Low Value
 
 Final Model
 _______________________________________________________________________________________________
