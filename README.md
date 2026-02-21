@@ -23,7 +23,8 @@ Univariate Analysis
 
 CLV is heavily right skewed in the data
 
-<img width="602" height="432" alt="CLV" src="https://github.com/user-attachments/assets/c9f75940-20d0-463f-81d1-8c8a5efebe3f" />
+<img width="580" height="434" alt="location" src="https://github.com/user-attachments/assets/70793288-2266-4a89-a4cd-338fdcd01753" />
+
 
 Most of the customers are from the suburban region
 Bivariate Analysis
